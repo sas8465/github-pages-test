@@ -290,6 +290,8 @@ The provided Java code defines an interface named `TaskRepository` within the pa
 
 These method declarations follow the Spring Data naming conventions, which allow for the automatic generation of the underlying MongoDB queries. The `TaskRepository` interface serves as a contract for the repository, and Spring Data MongoDB will provide the implementation at runtime, allowing for easy data access and manipulation with MongoDB.
 
+### Code Initiation: How the MongoDB is initiated and interfaced
+
 The process of interacting with MongoDB, as depicted in the provided code, is structured within a typical Spring Boot application where the Spring Data MongoDB framework is utilized to simplify database interactions. Here's how the different pieces fit together based on the given code:
 
 1. **Configuration and Initialization**:
