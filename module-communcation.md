@@ -1,6 +1,6 @@
 # tapas-tasks adapter logic and explanation 
 
-'''
+```
 ├── in
 │   ├── formats
 │   │   ├── TaskJsonPatchRepresentation.java
@@ -24,7 +24,7 @@
     │       └── TaskRepository.java
     └── web
         └── PublishNewTaskAddedEventWebAdapter.java
-'''
+```
 
 In your Spring Boot application, you have organized your code in a well-structured manner adhering to the Hexagonal Architecture (also known as Ports and Adapters Architecture). Here's a brief explanation of the classes within the `http` package you've provided, focusing on their roles and interactions:
 
